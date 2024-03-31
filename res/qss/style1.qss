@@ -1,0 +1,198 @@
+* {
+    /* 设置全局字体为 Heiti SC */
+    font-family: "Heiti SC";
+    color: black;
+}
+
+#Avatar {
+    border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E16262;
+    padding: 1px;
+}
+
+#Row {
+    background-color: #EEF0F2;
+    border-radius: 30px;
+}
+
+#HighlightRow {
+    border-right-width: 4px;
+    border-style: solid;
+    border-color: #2886FF;
+}
+
+#Chat {
+    background-color: #fff;
+}
+
+/* 布局区域 */
+
+#SideBarArea {
+    /* border-left-width: 1px; */
+    border-top-width: 1px;
+    border-style: solid;
+}
+
+#ConversationDetails {
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+}
+
+#ConversationDetails #Conversation {
+    font-weight: bold;
+    font-size: 22px;
+    /* color: black; */
+}
+
+#ConversationDetails #ConversationDetailsAvatar {
+    border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E16262;
+    padding: 1px;
+}
+
+#ConversationDetails #ConversationDetailsName {
+    font-weight: bold;
+    font-size: 12px;
+    /* color: black; */
+}
+
+#AccountDetails {
+    border-radius: 10px;
+    border: 1px solid #777777;
+}
+
+#AccountDetails #AccountDetailsInfo {
+    border-top-width: 1px;
+    border-style: solid;
+    /* border-color: black; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #EEF0F2;
+}
+
+#AccountDetails #VoterCompte {
+    font-weight: bold;
+    font-size: 11px;
+    /* color: black; */
+}
+
+#AccountDetails #AccountDetailsSettings {
+    border-radius: 11px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#AccountDetails #AccountDetailsAvatar {
+    border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E16262;
+    padding: 1px;
+}
+
+#AccountDetails #AccountDetailsName {
+    font-weight: bold;
+    font-size: 13px;
+    /* color: black; */
+}
+
+#Messages {
+    border-radius: 10px;
+    border: 1px solid #777777;
+}
+
+#Messages #Discussions {
+    font-weight: bold;
+    font-size: 11px;
+    /* color: black; */
+}
+
+#Messages #MessagesArea {
+    border: 0px solid black;
+    border-top-width: 1px;
+    border-color: black;
+}
+
+#DiscussionsName {
+    font-weight: bold;
+    font-size: 8px;
+}
+
+#DiscussionsContent, #DiscussionsDate {
+    font-weight: medium;
+    font-size: 7px;
+}
+
+#ChatArea {
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+}
+
+/* 窗口控制按钮 */
+
+#CloseWindowBtn {
+    border-radius: 7px;
+    background-color: "#FF0000";
+}
+
+#MaximizeWindowBtn {
+    border-radius: 7px;
+    background-color: "#00FF47";
+}
+
+#MinimizeWindowBtn {
+    border-radius: 7px;
+    background-color: "#FF7A00";
+}
+
+/* ------- 测试 ------- */
+#widget_3 {
+	border: 1px solid #777777;
+	border-radius: 13px;
+    padding: 2px;
+    /* padding-left: 25px; */
+}
+
+#Message {
+	background: transparent;
+	border: none;
+    font-size: 10px;
+}
+
+#pushButton_2 {
+    background-color: #2886FF;
+    border: none;
+    border-radius: 11px;
+    font-size: 10px;
+    color: white;
+}
+
+#MessageHistory #RowLeft {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #30353C;
+    border-top-left-radius: 0px;
+    color: white;
+}
+
+#MessageHistory #RowLeft_2 {
+    background-color: #30353C;
+    padding: 10px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    color: white;
+}
+
+#MessageHistory #RowRight {
+    background-color: #3B82F6;
+    padding: 10px;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    color: white;
+}
